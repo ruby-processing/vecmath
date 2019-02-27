@@ -29,6 +29,7 @@ public class JRLibrary implements Library{
     public static void load(final Ruby runtime) {
         Vec2.createVec2(runtime);
         Vec3.createVec3(runtime);
+        MathToolModule.createMathToolModule(runtime);
     }
 
     /**
