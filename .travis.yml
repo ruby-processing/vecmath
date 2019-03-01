@@ -1,7 +1,13 @@
----
-sudo: false
 language: ruby
-cache: bundler
+dist: trusty
+
 rvm:
-  - 2.5.1
-before_install: gem install bundler -v 1.17.2
+  - jruby-9.2.6.0
+jdk:
+  - oraclejdk8
+os:
+  - linux
+
+addons:
+   apt:
+   update: true
