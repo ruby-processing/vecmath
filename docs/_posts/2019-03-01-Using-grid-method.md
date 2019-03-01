@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Using JRubyArt grid method"
-date:   2019-03-01 12:58:08 +0000
+date:   2019-03-01 06:58:08 +0000
 categories: vecmath update
 ---
 
