@@ -4,6 +4,9 @@ title:  "Welcome to Vecmath Gem for Visor"
 date:   2019-03-01 10:58:08 +0000
 categories: vecmath update
 ---
+
+# Example Usage
+
 ```ruby
 # ===== Default : Default
 GEM_HOME = '/home/tux/.gem/ruby/2.6.0'
