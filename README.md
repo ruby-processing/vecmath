@@ -36,4 +36,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/monkstone/vecmath.
+Bug reports and pull requests are welcome on GitHub at https://github.com/ruby-processing/vecmath.
