@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "What does vecmath gem provide"
+title:  "about"
 permalink: about
 ---
 
