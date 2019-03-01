@@ -1,4 +1,4 @@
-# Vecmath
+# Vecmath https://travis-ci.org/ruby-processing/vecmath.svg?branch=master
 
 The purpose of this gem is to make Vec2D and Vec3D classes available through a gem
 
