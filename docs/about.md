@@ -8,8 +8,8 @@ permalink: about
 
   - AppRender and ShapeRender that allow for direct writing of vector to vertex
 
+  - ColorUtil facilitates use of web string for colors
+
   - [JRubyArt](https://github.com/ruby-processing/JRubyArt) grid method.
 
   - [JRubyArt](https://github.com/ruby-processing/JRubyArt) map1d method. A direct replacement for processing map.
-
-  

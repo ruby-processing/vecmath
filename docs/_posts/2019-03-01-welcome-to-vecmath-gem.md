@@ -15,3 +15,5 @@ All you need is `mvn` to build the gem, and a ruby installation
 1. clone Repo
 2. cd Repo
 3. rake
+
+See examples [here](https://github.com/ruby-processing/vecmath/tree/master/samples)
