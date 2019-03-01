@@ -22,7 +22,7 @@ Or install it yourself as:
 
 All you need to do is `require 'vecmath'` to use `Vec2D` and `Vec3D` classes in your application.
 For `:to_vertex` functionality you need to create a renderer:-
-```
+```ruby
 @renderer = AppRender.new(graphics) # where graphics is instance of PGraphics
 # Usage
 vec.to_vertex(@renderer)
