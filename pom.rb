@@ -2,7 +2,7 @@ require 'fileutils'
 project 'vecmath', 'https://github.com/ruby-processing/vecmath' do
 
   model_version '4.0.0'
-  id 'ruby-processing:vecmath', '0.2.0'
+  id 'ruby-processing:vecmath', '0.3.0'
   packaging 'jar'
 
   description 'vecmath for Visor etc'

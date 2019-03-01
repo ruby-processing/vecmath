@@ -1,6 +1,5 @@
 package monkstone.vecmath;
 
-import processing.core.PApplet;
 import processing.core.PGraphics;
 
 /**
@@ -13,10 +12,10 @@ public class AppRender implements JRender {
 
     /**
      *
-     * @param app PApplet
+     * @param pg PGraphics
      */
-    public AppRender(final PApplet app) {
-        this.g = app.g;
+    public AppRender(final PGraphics pg) {
+        this.g = pg;
     }
 
     /**
