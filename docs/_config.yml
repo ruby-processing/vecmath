@@ -1,28 +1,31 @@
 title: Vecmath gem for Visor etc.
 email: mamba2928@yahoo.co.uk
 description: >- # this means to ignore newlines until "baseurl:"
-  Here we describe how to use some cool JRubyArt features in Visor
+Here we describe how to use some cool JRubyArt features in Visor
 baseurl: "" # the subpath of your site, e.g. /blog
 regenerate: true
-url: "https://ruby-processing.github.io/vecmath" # the base hostname & protocol for your site, e.g. http://example.com
+urls:
+  bugs: https://github.com/ruby-processing/vecmath/issues
+  wiki: https://github.com/ruby-processing/vecmath/wiki
+  github: https://ruby-processing.github.io/vecmath # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: monkstoneT
 github_username:  monkstone
-future: true
 # Build settings
 markdown: kramdown
+syntax_highlighter: rouge
+input: GFM
 theme: minima
 plugins:
-  - jekyll-feed
-syntax-highlighting:
-  enabled: true
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  syntax-highlighting:
+    enabled: true
+    # Exclude from processing.
+    # The following items will not be processed, by default. Create a custom list
+    # to override the default setting.
+    # exclude:
+    #   - Gemfile
+    #   - Gemfile.lock
+    #   - node_modules
+    #   - vendor/bundle/
+    #   - vendor/cache/
+    #   - vendor/gems/
+    #   - vendor/ruby/
