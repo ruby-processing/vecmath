@@ -3,7 +3,7 @@ email: mamba2928@yahoo.co.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Her we describe how to use some cool JRubyArt features in Visor
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ruby-processing.github.io/vecmath" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: monkstoneT
 github_username:  monkstone
 
@@ -12,7 +12,8 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-
+syntax-highlighting:
+  enabled: true
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
