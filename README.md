@@ -20,7 +20,13 @@ Or install it yourself as:
 
 ## Usage
 
-All you need to do is `require 'vecmath'` to use `Vec2D` and `Vec3D` classes in your application (NB: `:to_vertex` functionality depends on classes not currently available)
+All you need to do is `require 'vecmath'` to use `Vec2D` and `Vec3D` classes in your application.
+For `:to_vertex` functionality you need to create a renderer:-
+```
+@renderer = AppRender.new(graphics) # where graphics is instance of PGraphics
+# Usage
+vec.to_vertex(@renderer)
+```
 
 ## Development
 
