@@ -1,18 +1,15 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title:  "What does vecmath gem provide"
+permalink: about
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+  - Vec2D and Vec3D classes from [JRubyArt](https://github.com/ruby-processing/JRubyArt)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+  - AppRender and ShapeRender that allow for direct writing of vector to vertex
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+  - [JRubyArt](https://github.com/ruby-processing/JRubyArt) grid method.
 
+  - [JRubyArt](https://github.com/ruby-processing/JRubyArt) map1d method. A direct replacement for processing map.
 
-[jekyll-organization]: https://github.com/jekyll
+  
