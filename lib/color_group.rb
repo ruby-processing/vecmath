@@ -1,4 +1,4 @@
-java_import Java::Monkstone::ColorUtil
+java_import 'monkstone.ColorUtil'
 
 # class wraps a java color array, supports shuffle!, last and ruby_string
 # as well as ability to initialize with an array of "web" color string

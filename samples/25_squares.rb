@@ -2,7 +2,8 @@
 GEM_HOME = '/home/tux/.gem/ruby/2.6.0'
 require 'vecmath'
 PALETTE = %w[#a11220 #884444].freeze
-@colors = ColorUtil.webArray(PALETTE.to_java(:string))
+@group = ColorGroup.from_web_array(PALETTE)
+@colors = @group.colors
 rect_mode(CORNER)
 no_stroke
 frame_rate(1) # set the frame rate to 1 draw call per second

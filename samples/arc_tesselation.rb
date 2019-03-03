@@ -7,8 +7,8 @@ PALETTE = %w[#0F4155 #158CA7 #D63826 #F5C03E #152A3B #7EC873 #4B3331].freeze
 
   # create a java primitive array of signed int
   #  @cols = web_array(PALETTE)
-  @group = ColorUtil.web_array(PALETTE.to_java(:string))
-  stroke_weight 1.5
+  @group = ColorGroup.from_web_array(PALETTE)
+  @colors = @group.colors
   stroke_cap SQUARE
   stroke(0, 200)
   @coloured = true
@@ -16,6 +16,7 @@ PALETTE = %w[#0F4155 #158CA7 #D63826 #F5C03E #152A3B #7EC873 #4B3331].freeze
 
 def draw
   arc_pattern
+  no_loop
 end
 
 def sep_index(idx, length)
@@ -23,7 +24,7 @@ def sep_index(idx, length)
 end
 
 def sep_color(idx, number)
-  @group[sep_index(idx - 1, number + 1)]
+  @colors[sep_index(idx - 1, number + 1)]
 end
 
 def arc_pattern
@@ -49,10 +50,13 @@ def arc_pattern
   end
 end
 
-# def mouse_pressed
-#  @group.shuffle if @coloured
-#  loop
-# end
+# Use midi controls attached to replace these methods?
+
+def mouse_pressed
+  @group.shuffle! if @coloured
+  @cols = @group.colors
+  loop
+end
 
 # def key_typed
 #  case key
