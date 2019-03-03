@@ -6,6 +6,6 @@ module Vecmath
   Java::Monkstone::JRLibrary.load(JRuby.runtime)
 end
 
-java_import 'monkstone.vecmath.AppRender'
+java_import 'monkstone.vecmath.GfxRender'
 java_import 'monkstone.vecmath.ShapeRender'
 java_import 'monkstone.ColorUtil'

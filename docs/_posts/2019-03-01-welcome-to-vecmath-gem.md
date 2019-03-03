@@ -6,7 +6,7 @@ categories: vecmath update
 ---
 # Background
 
-The vecmath Vec2D and Vec3D classes were originally build for JRubyArt and provide more ruby-like vector classes than the somewhat suspect vanilla processing PVector class (that doesn't know whether it's 2D or 3D). Further the AppRender class enables direct writing of vector to vertex
+The vecmath Vec2D and Vec3D classes were originally build for JRubyArt and provide more ruby-like vector classes than the somewhat suspect vanilla processing PVector class (that doesn't know whether it's 2D or 3D). Further the GfxRender class enables direct writing of vector to vertex
 
 # Building the Gem
 

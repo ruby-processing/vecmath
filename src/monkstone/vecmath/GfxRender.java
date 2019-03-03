@@ -6,7 +6,7 @@ import processing.core.PGraphics;
  * Renderer
  * Copyright (c) 2018 Martin Prout
  */
-public class AppRender implements JRender {
+public class GfxRender implements JRender {
 
     final PGraphics g;
 
@@ -14,7 +14,7 @@ public class AppRender implements JRender {
      *
      * @param pg PGraphics
      */
-    public AppRender(final PGraphics pg) {
+    public GfxRender(final PGraphics pg) {
         this.g = pg;
     }
 

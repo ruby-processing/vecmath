@@ -3,7 +3,7 @@ GEM_HOME = '/home/tux/.gem/ruby/2.6.0'
 require 'vecmath'
 require 'forwardable'
 
-# Here we use the JRubyArt Vec2D class, and AppRender class (for vec.to_vertex)
+# Here we use the JRubyArt Vec2D class, and GfxRender class (for vec.to_vertex)
 # Further we use the power of ruby (metaprogramming) to make Branch enumerable
 # and use Forwardable to define which enumerable methods we want to use.
 visor_class :Branch do
@@ -23,7 +23,7 @@ visor_class :Branch do
   attr_reader :position, :dir, :path, :children, :xbound, :speed, :ybound, :app
 
   def initialize(pos, dir, speed)
-    @renderer ||= AppRender.new(graphics)
+    @renderer ||= GfxRender.new(graphics)
     @position = pos
     @dir = dir
     @speed = speed
