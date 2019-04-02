@@ -1,5 +1,5 @@
 # ===== Default : Default
-GEM_HOME = '/home/tux/.gem/ruby/2.6.0'
+$LOAD_PATH << File.expand_path('/home/sid/vecmath/lib', __FILE__)
 require 'vecmath'
 
 color_mode(RGB, 1)

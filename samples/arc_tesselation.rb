@@ -1,5 +1,5 @@
 # ===== Default : Default
-GEM_HOME = '/home/tux/.gem/ruby/2.6.0'
+$LOAD_PATH << File.expand_path('/home/sid/vecmath/lib', __FILE__)
 require 'vecmath'
 
 PALETTE = %w[#0F4155 #158CA7 #D63826 #F5C03E #152A3B #7EC873 #4B3331].freeze
